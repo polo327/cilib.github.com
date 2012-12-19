@@ -17,6 +17,8 @@ because the ',' token is overloaded to be both a separator for individual
 dimensions within the domain definitions as well as being the separator for
 lower and upper bound definitions within the dimension as well.
 
+<!-- more -->
+
 In order to parse the above, a fair amount of state needs to be maintained
 to know the current "scope". This mutable state results is utter havoc with
 concurrent usage of the domain parser. Two possible fixes could be applied to

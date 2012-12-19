@@ -9,6 +9,8 @@ tags: []
 The niching package has recently had a major refactor. This post and a few later
 ones will explain the changes and how to use them.
 
+<!-- more -->
+
 ### Going Functional
 
 A functional approach has been taken with regards to the refactor. This means that

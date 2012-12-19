@@ -16,6 +16,8 @@ We are continuously trying to improve CIlib and, as such, we have decided to rem
 scripts in favor of letting the simulator provide the "running" functionality in the form of an executable jar
 file.
 
+<!-- more -->
+
 Furthermore, from a source level, CIlib uses Maven as the project build tool but the fact that the project
 wants to move to a Scala DSL replacement of the XML based simulator means that we should reevaluate the
 use of Maven as well.

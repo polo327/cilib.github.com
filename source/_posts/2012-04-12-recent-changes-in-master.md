@@ -10,6 +10,8 @@ A couple of patches recently made their way into the master branch of CIlib whic
 affect the way CIlib is used. The changes were made to the stopping conditions,
 topologies and control parameters.
 
+<!-- more -->
+
 ### Stopping Conditions
 
 In a bid to increase genericity (is that a word?) and remove duplicate code the
